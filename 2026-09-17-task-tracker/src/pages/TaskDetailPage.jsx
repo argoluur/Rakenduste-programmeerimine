@@ -16,7 +16,7 @@ export function TaskDetailPage({ tasks }) {
   return (
     <div>
       <h2>{task.title}</h2>
-      <p>Olek: {task.completed ? 'Completed' : 'Not completed'}</p>
+      <p>State: {task.completed ? 'Completed' : 'Not completed'}</p>
       <p>ID: {task.id}</p>
       <Link to="/tasks">Back to list</Link>
     </div>
