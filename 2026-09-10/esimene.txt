@@ -1,0 +1,9 @@
+1.1 - Ei teadnud, et single threaded keeles oodatakse iga protsessi järgi, 
+ning selle vältel ei saa midagi muud välja kutsuda ega browseris vajutada kui stack on blokeeritud. Lisaks sain teada,
+et JavaScript ise teeb asju ainult ükshaaval, kuid browser annab võimaluse teha async tegevusi.
+
+1.2 - Sain teada mis on promise ning mis erinevus on errorite viskamisel. Kuidas generaator funktsioon toimib ning mis
+see endast üldse kujutab. 
+
+1.3 - https://www.youtube.com/watch?v=yMbUr5op98Y - Sain teada mida päriselt kõik node.js, eslint ja muud asjad teevad
+ning kuidas need javascriptiga seotud on. Aitas aru saada sellest üleüldisest süsteemist, kuidas javascripti kasutatakse.
